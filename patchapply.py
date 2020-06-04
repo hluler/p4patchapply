@@ -15,12 +15,12 @@ import time
 
 PATH_PREFIX = ""  # "D:\\code_local\\20200414\\305314\\"
 DESCRIPTION_FILE_NAME = "commit_msg.txt"
-DESCRIPTION_FILE_PATH = ""  # "C:\\Users\\long8691.he\\Desktop\\comment.txt"
+DESCRIPTION_FILE_PATH = ""  # "C:\\Users\\xxx\\Desktop\\comment.txt"
 P4_CLIENT_ROOT_KEY = "Client root"
 
 PATH_OLD_PREFIX = ""  # PATH_PREFLIX + "old\\"
 PATH_NEW_PREFIX = ""  # PATH_PREFLIX + "new\\"
-P4_PROJECT_PATH_PREFIX = ""  # "//PROD_QUEEN/ONEUI_2_1/FLUMEN/Waffle/MT6765/android/vendor/mediatek/proprietary/custom/"
+P4_PROJECT_PATH_PREFIX = ""  # 
 P4_CLIENT_ROOT_PATH = ""  # D:\\jdm_p4_workspace\\"
 BEYOND_COMPARE_PATH = ""#"\"C:\\Program Files (x86)\\Beyond Compare 3\\BCompare.exe\""
 
@@ -101,14 +101,7 @@ def list_all_files(rootdir):
     return _files
 
 
-# m = fc.cmp('D:\\jdm_p4_workspace\\PROD_QUEEN\\ONEUI_2_1\\FLUMEN\\Waffle\\MT6765\\android\\vendor\\mediatek\\proprietary\\custom\\mt6765\\hal\\camera_3a\\ae_tmo_user\\ae_tmo_tuning_custom_txd_s5k3l6.cpp',files[0],shallow=False)
-# print(m)
 
-# if 0
-# a = os.system(r"p4 change")
-# a = os.system(r"p4 changes -m 1 -s pending")
-# m = re.findall(r'(\w*[0-9]+)\w*',resp)
-# endif
 
 # generate new changelist
 def generate_change_list():
